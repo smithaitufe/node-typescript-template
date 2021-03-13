@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "allowJs": false,
+      "strict": true,
+      "esModuleInterop": true,
+      "lib": ["es2020","es2017", "esnext", "dom", "es7"],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "resolveJsonModule": false,
+      "noImplicitAny": true,
+      "target": "es2020",
+      "typeRoots": ["node_modules/@types", "node_modules/types", "src/ts-types"],
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true
+    },
+    "include": ["./src"],
+    "exclude": ["./dist"]
+  }
+  
