@@ -1,7 +1,7 @@
 {
-  "name": "hotels-backend",
+  "name": "node-typescript-template",
   "version": "1.0.0",
-  "description": "Contains models and api for managing hotels",
+  "description": "Sample repository for starting nodejs typescript (TypeOrm and Postgres) project.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint \"src/**/*.{ts,js}\"",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smithaitufe/hotels-backend.git"
+    "url": "git+https://github.com/smithaitufe/node-typescript-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/smithaitufe/hotels-backend/issues"
+    "url": "https://github.com/smithaitufe/node-typescript-template/issues"
   },
-  "homepage": "https://github.com/smithaitufe/hotels-backend#readme",
+  "homepage": "https://github.com/smithaitufe/node-typescript-template#readme",
   "dependencies": {
     "cpx": "^1.5.0",
     "pg": "^8.5.1",
